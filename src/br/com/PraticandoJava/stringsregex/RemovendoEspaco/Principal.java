@@ -1,0 +1,15 @@
+package br.com.PraticandoJava.stringsregex.RemovendoEspaco;
+
+import java.util.Scanner;
+
+public class Principal {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Digite o nome: ");
+    String nome = scanner.nextLine();
+
+    String nomeFormatado = nome.trim();
+    System.out.println("Nome sem espaços: " + nomeFormatado);
+    scanner.close();
+  }
+}
